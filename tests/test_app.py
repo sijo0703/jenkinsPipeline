@@ -1,0 +1,6 @@
+# tests/test_app.py
+
+from src.app import hello_world
+
+def test_hello_world():
+    assert hello_world() == "Hello, Jenkins Pipeline!"
